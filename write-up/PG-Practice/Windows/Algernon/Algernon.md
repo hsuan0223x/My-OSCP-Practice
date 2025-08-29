@@ -1,4 +1,4 @@
-## Recon
+## 偵查
 - Rustscan
   ```
   Open 192.168.234.65:21
@@ -86,7 +86,7 @@
 ## 分析
 
 先看看是什麼 CMS
-![image](image.png)
+![image](images/image.png)
 感覺可以找到 exploit RCE  
 [exploit](https://www.exploit-db.com/exploits/49216)  
 這個是依賴 17001 port 的 .NET Remoting to get RCE 的 exploit

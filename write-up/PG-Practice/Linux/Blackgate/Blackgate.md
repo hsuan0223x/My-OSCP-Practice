@@ -1,4 +1,4 @@
-## 掃 port
+## 偵查
 ```bash
 rustscan -a <target_ip> --ulimit 5000
 ```
