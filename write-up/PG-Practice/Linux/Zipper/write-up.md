@@ -209,7 +209,7 @@ if ($_FILES && $_FILES['img']) {
 
 這個腳本給了我們線索。他是直接 `cat /root/secret` 來取得密碼的。所以可以找看看有沒有辦法監測他執行的時候輸出的內容。  
 這時想到了`pspy`這個東西，來用用看。  
-結果都沒有抓到，但是可看看到 `/opt/backups/backup.log` 這個檔案有東西，內容如下
+結果都沒有抓到，但是可以看看 `/opt/backups/backup.log` 這個檔案，內容如下
 ```shell
 cat backups/backup.log
 
